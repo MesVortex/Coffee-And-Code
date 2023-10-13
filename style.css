@@ -3,6 +3,7 @@ a,
 h1,
 h2,
 h3,
+h4,
 button{
   font-family: poppins;
   margin-top: 0;
@@ -207,6 +208,7 @@ a{
   background-image: url(./images/home-menu.png);
   background-size: cover;
 }
+
 .home-menu-title{
   padding-top: 50px;
   padding-left: 727.5px;
@@ -327,7 +329,8 @@ a{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
 
-.home-reviews-cards p{
+.home-reviews-cards p,
+.home-reviews-cards h4{
   font-family: lexend;
 }
 
