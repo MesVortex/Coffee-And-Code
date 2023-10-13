@@ -1,0 +1,107 @@
+.location-header-section{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/localisation-header.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 788px;
+  border-radius: 0 0 100px 100px;
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.8);
+}
+
+.location-title{
+  font-size: 37px;
+  width: 770px;
+  height: 106px;
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+  align-self: flex-end;
+  margin-right: 150px;
+}
+
+.location-mini-title{
+  font-size: 27px;
+  font-weight: 900;
+  align-self: center;
+  color: white;
+  width: 445px;
+  height: 100px;
+  margin-left: 200px;
+}
+
+.location-section{
+  height: 1221px;
+}
+
+.location-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.location-text{
+  align-self: center;
+  color: #80471A;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.locations-row{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.location-cards{
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+  height: 629px;
+  border-radius: 20px;
+  margin-right: 15px;
+  background-color: #9F5815;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 1);
+}
+
+.location-img-box{
+  align-self: center;
+  margin-top: 17px;
+}
+
+.location-img{
+  width: 366px;
+  height: 248px;
+  border-radius: 40px;
+}
+
+.location-adresse-content{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 336px;
+  margin-top: 50px;
+}
+
+.icon{
+  width: 55px;
+  height: 55px;
+}
+
+.location-adresse{
+  width: 246px;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.location-phoneNumber{
+  width: 164px;
+  font-size: 17px;
+  margin-right: 85px;
+  text-transform: capitalize;
+}
